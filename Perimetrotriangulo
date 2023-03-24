@@ -1,0 +1,10 @@
+#perimetro del triángulo
+#lectura de datos 
+Ladoa=1
+Ladob=2
+Ladoc=3
+def perímetro_de_triángulo(lado1,lado2,lado3):
+   perimetro =lado1+lado2+lado3
+   return perímetro
+Perimetro=perimetro_de_triangulo(Ladoa,ladob,ladoc)
+print(perimetro)
